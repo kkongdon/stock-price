@@ -26,6 +26,6 @@ app.get("/stock-price", function (req: any, res: any) {
 
 app.listen(3000, function () {
   console.log(
-    "http://127.0.0.1:3000/stock-price?serviceKey=u6LTeM%2FaiScn%2FEGgwHFzHgzkg4LFRF6FmjTVuQPcgTKTjJBo%2BVGWSu%2FFMVxPYpZqR0dA2dtLTq5hYZ3kIkB%2BfA%3D%3D&numOfRows=1&pageNo=1&likeItmsNm=삼성전자 app listening on port 3000!"
+    "http://127.0.0.1:3000/stock-price?serviceKey=u6LTeM%2FaiScn%2FEGgwHFzHgzkg4LFRF6FmjTVuQPcgTKTjJBo%2BVGWSu%2FFMVxPYpZqR0dA2dtLTq5hYZ3kIkB%2BfA%3D%3D&numOfRows=1&pageNo=1&&likeItmsNm=삼성전자&mrktCls=KOSPI&numOfRows=1&pageNo=1&basDt=20241205 app listening on port 3000!"
   );
 });
